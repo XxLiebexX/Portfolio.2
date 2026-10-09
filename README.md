@@ -1,6 +1,6 @@
+<div align="center">
 
-
-# 🪐 YUVRAJ SINGH // PORTFOLIO
+# 🪐 YUVRAJ SINGH // 3D SPATIAL & CHROME EDITORIAL PORTFOLIO
 **AI/ML Researcher • Full-Stack Developer • Systems Architect**
 
 [![Next.js](https://img.shields.io/badge/Next.js%2014-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
@@ -19,41 +19,81 @@
 
 ## ⚡ Overview
 
-A high-performance **3D Spatial Developer Portfolio** built with **Next.js 14 App Router**, **React Three Fiber (Three.js)**, **TypeScript**, and **Tailwind CSS**. 
+A cutting-edge **Awwwards-inspired 3D Developer Portfolio** built with **Next.js 14 App Router**, **React Three Fiber (Three.js)**, **TypeScript**, and **Tailwind CSS**. 
 
-Designed with an authentic technical HUD spatial aesthetic inspired by aerospace telemetry and quantum research interfaces — featuring procedural 3D artifacts, a real-time mathematical topological wave graph terrain, fluid spring-inertia mouse tracking, and seamless White & Dark theme switching.
+Featuring massive architectural kinetic typography, a real-time morphing **Liquid Mercury 3D Chrome Centerpiece** with physical studio reflections, high-contrast Swiss hairline layouts, and precision micro-interactions.
 
 ---
 
 ## ✨ Key Features & Technical Highlights
 
-### 🕹️ 1. Interactive 3D Spatial Canvas (`Three.js` & `@react-three/fiber`)
-- **Procedural 3D Quantum Core:** 6-DOF inertial tracking, optical glass refractions, rotating outer gimbal rings, and dynamic lighting.
-- **Mathematical 3D Wave Graph:** Topological wireframe terrain with real-time multi-frequency sine/cosine wave deformation and mouse gravitational ripples calculated at a locked 60/120 FPS.
-- **Spatial Dust:** Ambient floating particles drifting through 3D vector space.
+### 💎 1. Morphing 3D Liquid Chrome Centerpiece (`LiquidChrome.tsx`)
+- **Procedural Liquid Mercury:** Complex fluid torus knot geometry with physical chrome reflection (`metalness: 1.0`, `roughness: 0.06`, `clearcoat: 1.0`).
+- **6-DOF Reactive Parallax:** Real-time mouse tracking and kinetic inertia that morphs dynamically with cursor speed.
+- **Studio Lighting:** Multi-angle key and rim lighting producing realistic liquid metal highlights and shadows.
 
-### 🎯 2. Custom Spring-Inertia Mouse Tracker (`CustomCursor`)
-- **Dual-Layer Architecture:** Zero-lag precision target dot paired with a fluid outer ring driven by spring damping physics (`requestAnimationFrame`).
-- **Contextual Hover States:** Smoothly expands and highlights clickable cards, buttons, and links.
-- **Auto Device Fallback:** Automatically switches off on mobile/touchscreens (`pointer: coarse`) for native touch performance.
+### 📐 2. Massive Architectural Kinetic Typography
+- **Screen-Spanning Headers:** Bold Swiss grotesque typography (`YUVRAJ SINGH`) layered with mathematical symbols (`Ψ`) and live telemetry.
+- **Live UTC Telemetry Clock:** Real-time synchronized clock and verified research coordinates.
 
-### 🌗 3. Dual Spatial Themes (White Mode & Dark Mode)
-- **White Technical Blueprint Mode:** Clean `#f8fafc` canvas with fine technical grid lines, slate typography, and electric sky blue accents.
-- **Obsidian Dark Mode:** Deep space `#07080c` obsidian palette with glowing cyan/indigo neon ambient blur orbs.
-- **Instant Navbar Toggle:** 1-click theme switch with local storage persistence and synthesizer audio chime.
+### 🎯 3. Multi-Layer Responsive Spring Cursor (`CustomCursor.tsx`)
+- Smooth spring-damped precision pointer with subtle interactive expansions over clickable cards, buttons, and links.
+- Automatically disabled on touch devices for native mobile scrolling.
 
-### 📟 4. Aerospace HUD & Telemetry Aesthetics
-- **System Bootloader Screen (`SYS_INIT // v1.0`):** Authenticated coordinates, real-time spatial initialization loader, and smooth dissolve animation.
-- **Interactive Card Tilt (`CardTilt`):** 3D perspective hover tilt (`perspective(1000px) rotateX/Y`) on project frames.
-- **Audio Synthesizer:** Subtle synthesized micro-interaction clicks, hovers, and toggle sound effects.
+### 📟 4. Engineered Artifacts & Systems Showcase
+- High-contrast project index with domain tags, quantified performance metrics, tech stack pills, and direct links to code and live deployments.
 
 ---
 
 ## 🚀 Featured Engineering Projects
 
-| Project | Domain | Key Architecture / Highlights | Links |
+| Project | Domain | Architecture & Highlights | Links |
 | :--- | :--- | :--- | :---: |
-| **Customer Churn Predictor** | Machine Learning | • **87% ROC-AUC** ensemble pipeline<br />• End-to-end data processing & feature engineering<br />• Low-latency FastAPI real-time scoring endpoint | [Repo](https://github.com/XxLiebexX/customer-churn-predictor) |
-| **Quantum Key Distribution (QKD) Simulator** | Quantum Cryptography | • Simulated **BB84, B92, & Decoy-State** protocols via Qiskit<br />• QBER calculation & Shannon mutual information modeling<br />• Eavesdropping (Eve intercept-resend) detection | [Repo](https://github.com/XxLiebexX/QKD) • [Demo](https://qbit-secure-5.vercel.app/) |
-| **Signal Real-Time Messenger** | Full-Stack Systems | • Full-duplex WebSocket communication engine (`<15ms` latency)<br />• Normalized 7-table schema with indexed fast lookups<br />• 20+ backend REST & WebSocket endpoints | [Repo](https://github.com/XxLiebexX/signal-clone) • [Demo](https://signal-clone-by1nvehln-yuv21998-gmailcoms-projects.vercel.app/) |
+| **Customer Churn Predictor** | Machine Learning | • **87% ROC-AUC** ensemble pipeline<br />• End-to-end automated feature processing<br />• Sub-25ms FastAPI real-time inference endpoint | [Repo](https://github.com/XxLiebexX/customer-churn-predictor) |
+| **Quantum Key Distribution (QKD) Simulator** | Quantum Cryptography | • Simulated **BB84, B92, & Decoy-State** protocols via IBM Qiskit<br />• QBER calculation & Shannon mutual information modeling<br />• Real-time eavesdropping detection | [Repo](https://github.com/XxLiebexX/QKD) • [Demo](https://qbit-secure-5.vercel.app/) |
+| **Signal Real-Time Messenger** | Full-Stack Systems | • Full-duplex WebSocket communication engine (`<15ms` latency)<br />• Normalized 7-table schema with fast indexed lookups<br />• 20+ backend REST & WebSocket endpoints | [Repo](https://github.com/XxLiebexX/signal-clone) • [Demo](https://signal-clone-by1nvehln-yuv21998-gmailcoms-projects.vercel.app/) |
 
+---
+
+## 🛠️ Tech Stack & Tooling
+
+```
+├── Framework:           Next.js 14 (App Router), React 18
+├── 3D & Graphics:       Three.js, @react-three/fiber, @react-three/drei
+├── Styling & Motion:    Tailwind CSS, CSS Custom Properties, Vanilla Spring Math
+├── Language:            TypeScript (Strict mode)
+├── Icons:               Lucide React
+├── Audio Engine:        Web Audio API Synthesizer
+└── Deployment:          Vercel Edge Network
+```
+
+---
+
+## 💻 Local Development Setup
+
+```bash
+# 1. Clone repository
+git clone https://github.com/XxLiebexX/Portfolio.2.git
+cd Portfolio.2
+
+# 2. Install dependencies
+npm install
+
+# 3. Start development server
+npm run dev
+
+# 4. Build for production
+npm run build
+npm run start
+```
+
+---
+
+## 👤 Author
+
+**Yuvraj Singh (XxLiebexX)**
+- **Role:** AI/ML Enthusiast • Full-Stack Developer • Computer Science Student (Bennett University)
+- **LeetCode:** [@Liebe_](https://leetcode.com/u/Liebe_/)
+- **GitHub:** [@XxLiebexX](https://github.com/XxLiebexX)
+- **LinkedIn:** [Yuvraj Singh](https://www.linkedin.com/in/yuvraj-singh-31a691282/)
+- **Email:** [yuv21998@gmail.com](mailto:yuv21998@gmail.com)

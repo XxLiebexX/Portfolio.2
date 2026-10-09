@@ -16,6 +16,8 @@ module.exports = {
         surface: 'var(--surface)',
         'surface-elevated': 'var(--surface-elevated)',
         accent: 'var(--accent)',
+        'accent-chrome': 'var(--accent-chrome)',
+        'accent-blue': 'var(--accent-blue)',
         'accent-hover': 'var(--accent-hover)',
         'border-subtle': 'var(--border-subtle)',
         border: 'var(--border)',
@@ -38,6 +40,7 @@ module.exports = {
         ],
       },
       fontSize: {
+        displayGiant: ['clamp(3.5rem, 13vw, 11rem)', { lineHeight: '0.82', letterSpacing: '-0.06em' }],
         display: ['clamp(2.5rem, 6vw, 4.5rem)', { lineHeight: '0.95', letterSpacing: '-0.04em' }],
         h1: ['clamp(2rem, 4vw, 3rem)', { lineHeight: '1.05', letterSpacing: '-0.03em' }],
         h2: ['clamp(1.5rem, 3vw, 2.25rem)', { lineHeight: '1.15', letterSpacing: '-0.02em' }],
