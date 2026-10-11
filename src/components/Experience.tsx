@@ -7,23 +7,20 @@ import { PORTFOLIO_DATA } from "@/lib/data";
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 border-b border-border-subtle relative bg-grid-technical select-none">
-      <div className="mx-auto w-full max-w-7xl px-4 sm:px-8 space-y-12">
-        {/* Editorial Section Header */}
-        <div className="flex flex-col md:flex-row justify-between md:items-end gap-6 pb-6 border-b border-border-subtle">
-          <div className="space-y-2">
-            <span className="text-technical text-foreground-muted flex items-center gap-2">
-              <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-              <span>03 • TRAJECTORY &amp; RESEARCH</span>
-            </span>
-            <h2 className="text-3xl sm:text-5xl font-black uppercase tracking-tight text-foreground font-sans">
-              EXPERIENCE RECORD
-            </h2>
+    <section id="experience" className="py-20 border-t border-border-subtle relative bg-grid-technical">
+      <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 space-y-12">
+        {/* Section Header */}
+        <div className="space-y-2">
+          <div className="flex items-center gap-2 text-technical text-accent">
+            <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+            <span>TRAJECTORY // RESEARCH &amp; ACADEMIA</span>
           </div>
-
-          <div className="text-technical text-foreground-muted font-mono">
-            <span>BENNETT UNIVERSITY // 2023 — 2027</span>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-foreground font-sans">
+            Experience &amp; Education
+          </h2>
+          <p className="text-sm text-foreground-secondary max-w-xl font-mono">
+            Research engineering at the forefront of quantum cryptography alongside rigorous computer science foundations.
+          </p>
         </div>
 
         {/* Milestone Cards */}
@@ -32,14 +29,12 @@ export default function Experience() {
             <div
               key={item.role}
               onMouseEnter={() => sound.playHover()}
-              className="glass-panel p-8 sm:p-10 rounded-2xl border border-border-subtle hover:border-white/30 transition-all duration-300 space-y-5 shadow-lg"
+              className="glass-panel p-6 sm:p-8 rounded-md border border-border-subtle hover:border-accent transition-colors space-y-4"
             >
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border-subtle pb-4">
-                <div className="flex items-center gap-2 font-mono text-xs text-foreground font-bold">
-                  <Calendar className="w-3.5 h-3.5 text-foreground-muted" />
-                  <span className="px-3 py-1 rounded-full bg-surface-elevated border border-border-subtle">
-                    {item.period}
-                  </span>
+                <div className="flex items-center gap-2 font-mono text-xs text-accent font-bold">
+                  <Calendar className="w-3.5 h-3.5" />
+                  <span>{item.period}</span>
                 </div>
                 <div className="flex items-center gap-1.5 font-mono text-xs text-foreground-muted">
                   <MapPin className="w-3.5 h-3.5" />
@@ -51,31 +46,31 @@ export default function Experience() {
                 <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-tight text-foreground">
                   {item.role}
                 </h3>
-                <div className="text-xs sm:text-sm font-mono text-foreground-secondary mt-1 uppercase tracking-wider">
+                <div className="text-sm font-mono text-foreground-secondary mt-1">
                   {item.organization}
                 </div>
               </div>
 
-              <p className="text-xs sm:text-sm text-foreground-secondary leading-relaxed">
+              <p className="text-sm text-foreground-secondary leading-relaxed">
                 {item.description}
               </p>
 
               {/* Highlights */}
-              <div className="space-y-2.5 pt-2">
-                {item.highlights.map((h) => (
-                  <div key={h} className="flex items-start gap-2.5 text-xs sm:text-sm text-foreground-secondary">
-                    <CheckCircle2 className="w-4 h-4 text-foreground shrink-0 mt-0.5" />
+              <div className="space-y-2 pt-2">
+                {item.highlights.map((h, hIdx) => (
+                  <div key={hIdx} className="flex items-start gap-2 text-xs sm:text-sm text-foreground">
+                    <CheckCircle2 className="w-4 h-4 text-accent shrink-0 mt-0.5" />
                     <span>{h}</span>
                   </div>
                 ))}
               </div>
 
               {/* Tags */}
-              <div className="flex flex-wrap gap-1.5 pt-3">
+              <div className="flex flex-wrap gap-1.5 pt-2">
                 {item.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-3 py-1 rounded-full bg-surface border border-border-subtle text-[11px] font-mono text-foreground-muted uppercase tracking-wider"
+                    className="px-2.5 py-0.5 rounded text-[11px] font-mono bg-surface-elevated text-foreground-secondary border border-border-subtle"
                   >
                     {tag}
                   </span>
